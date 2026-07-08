@@ -1,0 +1,11 @@
+build/
+managed_components/
+sdkconfig.old
+
+# 敏感配置（WiFi/MQTT 凭据），模板见 main/app_secrets.h.example
+main/app_secrets.h
+
+.trellis/.developer
+__pycache__/
+*.py[cod]
+*.cache
